@@ -1,0 +1,7 @@
+<launch>
+<include file="$(find stdr_launchers)/launch/server_with_map_and_gui.launch"/>
+<include file="$(find hello)/launch/hello.launch">
+<arg name="my_args" default="robot0" />
+</include>
+</launch>
+
